@@ -54,7 +54,8 @@ services:
       CONTROL_CENTER_CONNECT_CLUSTER: http://kafka-connect:8083
       PORT: 9021
     extra_hosts:
-      - "host.docker.internal:172.17.0.1"```
+      - "host.docker.internal:172.17.0.1"
+```
 
 ✅ **Solução**
 
@@ -64,6 +65,9 @@ Após a subida dos containers, acessar: `http://localhost:9021/` > Topics > Add 
 
 Executar a aplicação e tudo deverá funcionar corretamente.
 
+**Evidência**
+
 Evidência de que as mensagens estão sendo publicadas no tópico.
-<img width="400" alt="topic" src="https://github.com/larissebitencourt/kafka/assets/26878743/d437d25b-ddb7-4976-ae13-274f77fd61df">
+
+<img width="790" alt="topic" src="https://github.com/larissebitencourt/kafka/assets/26878743/d437d25b-ddb7-4976-ae13-274f77fd61df">
 
