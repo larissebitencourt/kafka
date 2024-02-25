@@ -58,12 +58,12 @@ services:
 
 ✅ **Solução**
 
-Executar `docker-compose up` na pasta onde o arquivo docker-compose.yml se encontra.
+Executar ` docker-compose up ` na pasta onde o arquivo docker-compose.yml se encontra.
 
 Após a subida dos containers, acessar: `http://localhost:9021/` > Topics > Add a topic > em Topic Name escrever **topic-hello-kafka** 
 
 Executar a aplicação e tudo deverá funcionar corretamente.
 
 Evidência de que as mensagens estão sendo publicadas no tópico.
-<img width="769" alt="topic" src="https://github.com/larissebitencourt/kafka/assets/26878743/d437d25b-ddb7-4976-ae13-274f77fd61df">
+<img width="400" alt="topic" src="https://github.com/larissebitencourt/kafka/assets/26878743/d437d25b-ddb7-4976-ae13-274f77fd61df">
 
